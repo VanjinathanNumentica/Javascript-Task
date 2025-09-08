@@ -10,8 +10,8 @@ function findEvenSum(userInput) {
         );
     }
 
-    var sumEven = 0;
-    var hasEven = false; 
+    let sumEven = 0;
+    let hasEven = false; 
 
     for (var i = 0; i < userInput.length; i++) {
         var currentItem = userInput[i];
